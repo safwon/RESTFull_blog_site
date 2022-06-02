@@ -107,4 +107,5 @@ app.delete("/blogs/:id", (req, res) => {
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
     console.log("Restful_blog_app started! port:3000")
+    console.log("http://localhost:3000/blogs")
 })
